@@ -1,0 +1,69 @@
+.form{
+    background-color: aliceblue;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #61268B;
+    background: -webkit-linear-gradient(top left, #61268B, #3A68EE);
+    background: -moz-linear-gradient(top left, #61268B, #3A68EE);
+    background: linear-gradient(to bottom right, #61268B, #3A68EE);
+    font-size: 18px;
+}
+.container {
+    background-color: #10151e;
+    color: white;
+    min-width: 60%;
+    padding: 2%;
+   
+}
+
+.control{
+    margin-left: 9%;
+    text-align: left;
+    width: 90%;
+}
+.fieldText {
+    margin:9px 20px 0px 0px;
+    font-size: 18px;
+    padding: 9px;
+    width: 40%;
+    outline: none;
+    transition:0.2s;
+    background-color: #f7fbffdb;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.fieldText:focus {
+    transition:0.2s;
+    border: 2px solid rgba(27, 24, 207, 0.753);
+    box-shadow: 0px 0px 9px rgb(27, 24, 207);
+}
+.control_group {
+    display: flex;
+    justify-content: space-around;
+}
+.mark_one{
+    position: relative;
+    left:-37%;
+}
+.mark_two{
+    position: relative;
+    left:-43%;
+}
+.control_group .fieldText {
+    width: 100%;
+}
+.selection {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-around;
+}
+.btnRedirect {
+    background-color: dodgerblue;
+    border: none;
+    padding: 2%;
+    color:#f7fbffdb;
+    cursor: pointer;
+}

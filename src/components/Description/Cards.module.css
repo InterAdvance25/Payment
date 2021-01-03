@@ -1,0 +1,28 @@
+.card {
+    background-color:#e9e9e9;
+    color: #111111ba;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    font-size: 1.1em;
+}
+.card:last-child{
+    padding: 1% 2%;
+}
+.bankLogo {
+    width:9%;
+    display: block;
+    margin: 20px auto;
+
+}
+.description {
+    margin: 0px auto;
+    max-width: 90%;
+    flex-direction: column;
+    text-align: left;   
+    margin-bottom: 4%;
+}
+
+.rate{margin: 0px;} .list{padding-left: 4%;}
+.headline{margin-top: 0px;} .list li {margin: 5px auto;}
+

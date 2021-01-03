@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../static/images/city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.form {
+    font-size: 20px;
+    width: 30%;
+    background-color: #f6f6f6ed;
+    padding: 4%;
+}
+.form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form input {
+   min-width: 90%;
+   padding: 2%;
+   font-size: 20px;
+   background-color: transparent;
+   margin: 9px 0px;
+   outline: none;
+   color: #000000c9;
+   border: 1px solid black;
+   box-shadow: 1px 1px 4px #000000c9;
+   transition: .2s;
+   
+}
+.form input:focus{
+    transition: .2s;
+    box-shadow: 0px 0px 0px 4px #000000c9;
+}
+.select_container {
+    flex-direction:row !important;
+    justify-content: space-around;
+}
+
+.form_btn{
+    text-decoration: none;
+    color:#000000c9;
+}
+.form_btn:hover{
+    color: black;
+    cursor: pointer;
+}
+.btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    margin: 0px;
+}

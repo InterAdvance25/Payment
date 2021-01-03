@@ -1,0 +1,18 @@
+.content {
+    background-color: white;
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
+    display: flex;
+}
+.workers{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.workers div {
+    flex-basis:4%;
+}
+.navbar{
+    padding: 2%;
+}

@@ -1,0 +1,9 @@
+.flex_container{
+    align-self: center;
+    width: 100%;
+    display: flex;
+    background-color:#5e0bff;
+}
+.leftMenu,.rightMenu{
+    flex-grow: 1;
+}

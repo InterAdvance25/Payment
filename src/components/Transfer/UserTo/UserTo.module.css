@@ -1,0 +1,20 @@
+.btn{
+    border:none;
+    margin: 2%;
+    padding: 20px;
+}
+.inp{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #06080c6b;
+    color: white;
+    outline: none;
+}
+
+
+
+::placeholder{
+  
+}

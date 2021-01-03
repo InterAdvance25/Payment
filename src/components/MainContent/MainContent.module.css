@@ -1,0 +1,14 @@
+.content{
+    background-image: url("../../static/images/background.png");
+    background-size: cover;   
+    background-position: center; 
+    grid-column: 1 / -1;
+    grid-row: 2 / 4;
+    display: flex;
+}
+.content div {
+    flex-grow: 1;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+}

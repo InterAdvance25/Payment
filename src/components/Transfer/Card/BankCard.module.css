@@ -1,0 +1,61 @@
+.cardField,.count{
+    outline: none;
+    padding: 2%;
+    font-size: 20px;
+    background-color: transparent;
+    border-color: transparent transparent rgb(240,240, 240);
+    color: rgb(240,240, 240);
+    transition: .2s;
+}
+
+.cardField::placeholder {
+    color: transparent;
+
+}
+.container_cardField,.container_count{
+    color: aliceblue;
+    margin: 0px auto;
+    max-width: 20%;
+    text-align: left;
+    font-size: 20px;
+}
+.container_cardField:focus-within input{
+    transition: .2s;
+    border-color: transparent transparent#ff5e00;
+    transform: scale(1.5);
+}
+.container_cardField:focus-within input::placeholder{
+    transition: .2s;
+    color: tomato;
+    font-size: 18px;
+}
+.container_cardField:focus-within label{
+    transition: .2s;
+    color: transparent;
+}
+.container div{
+    margin: 4% auto;
+}
+.btn{
+    width: 9%;
+    background-color: tomato;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-right: 2%;
+    border-radius: 6px;
+    padding: 0%;
+
+}
+.btn:hover{
+    filter: brightness(80%);
+}
+.transaction{
+    text-decoration: none;
+    color: white;
+    background-color: #32b622;
+    padding:9%;
+    border-radius: 6px;
+    display: block;
+    width: 100%;    
+}

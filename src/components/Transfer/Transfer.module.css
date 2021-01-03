@@ -1,0 +1,25 @@
+.transfer {
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+}
+.transactionTypes div {
+    position: relative;
+    z-index: 0;
+}
+.transactionTypes{
+    margin: 4% 19%;
+    display: flex;
+    justify-content: space-around;
+}
+.phone,.card{ max-width: 20%; }
+.profile {max-width: 50%;position: relative; }
+.link{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+}
+.link:hover{
+    color: wheat;
+}
+
+

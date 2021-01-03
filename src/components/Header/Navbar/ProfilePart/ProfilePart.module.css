@@ -1,0 +1,42 @@
+.content{
+    display: flex;
+    padding: 2%;
+    justify-content: flex-end;
+
+}
+.content div{
+    margin:20px 40px;
+    background-color: aliceblue;
+    display:flex;
+    min-width: 24%;
+}
+.content div:last-child{
+    margin:20px 0px;
+    background-color: aliceblue;
+    min-width: 9%;
+}
+.content div:hover{
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+.icon{
+    width: 20px;
+    display: inline-block;
+}
+.team{
+    width: 30px;
+    display: inline-block;
+    margin: -9px 3px;
+}
+.linkToProfile,.linkToTeam,.signout{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 9%;
+}
+.signout{
+    padding:0px !important ;
+}

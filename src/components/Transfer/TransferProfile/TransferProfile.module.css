@@ -1,0 +1,82 @@
+.searchField,.searchButton{
+    width: 40%;
+    padding: 9px;
+    font-size: 20px;
+    outline: none;
+    color: #102d47;
+    background-color: #dfdfdf;
+    border: none;
+}
+.searchButton{
+    width: 9%;
+    background-color:dodgerblue;
+    color: aliceblue
+}
+.users {
+    margin: 4%;
+    padding: 5%;
+    background-color: #645f5f38;
+}
+.users div {
+    color:#ffdfe7;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.transfer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end !important;
+    width: 20%;
+}
+.transferBtn{
+    text-align: right;
+    text-decoration: none;
+    color:#ffdfe7;
+    background-color: #3db815a8;
+    padding: 9%;
+    border-radius: 4px;
+    display: block;
+}
+.transferBtn:hover{
+    transition: .2s;
+    filter: brightness(90%);
+}
+::-webkit-scrollbar-button {
+    background-repeat:no-repeat;
+    width:9px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar-track {
+    background-color:#ecedee
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color:#362bd6;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover{
+    background-color:#df1548;
+    }
+    
+    ::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:9px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar{
+    width: 9px;
+    }
+    .userName{
+        width: 40%;
+    }
+    .usersContainer{
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: dodgerblue;
+    }

@@ -1,0 +1,13 @@
+.mark,.errorMark{
+    display: block;
+    font-size: 20px;
+    width: 18%;
+    display: flex;
+}
+.errorMark{
+    color: #2c91e9;
+    width: 100%
+}
+.inp{
+    color: white;
+}

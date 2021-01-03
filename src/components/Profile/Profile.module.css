@@ -1,0 +1,44 @@
+.profile {
+    background-color:#25252a;
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.flex_container{
+    color:aliceblue;
+    display: flex;
+    grid-row: 1 / -1;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.flex_element{
+    color: #25252a;;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    padding: 6%;
+}
+.flex_element_count{
+    align-self: center;
+    font-size: 20px;
+    width: 30%;
+    border: 1px solid black;
+    padding: 2%;
+    border-right: none;
+    border-left: none;
+    
+}
+.payment{padding: 9%;text-align: left;}
+.history {
+    max-height: 60vh;
+    overflow: auto;
+}
+
+.flex_element_count h2{margin: 0px 0px 9px 0px;}
+.flex_container:last-child{
+    background-color: white;
+    color: #25252a;;
+}

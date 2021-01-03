@@ -1,0 +1,30 @@
+.content{
+    display: flex;
+    padding: 2%;
+}
+.content div{
+    margin: 20px;
+    border: 1px solid wheat;
+    color: white;
+    width: 40%;
+    display: flex;
+}
+.content div:first-child{
+    width: 20%;
+}
+
+.linkToTransfer,.linkToMain {
+    color: white;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    padding: 5%;
+}
+.linkToTransfer:hover,.linkToMain:hover{
+    background-color: aliceblue;
+    color: rgb(20,20,20);
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
